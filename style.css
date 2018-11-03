@@ -1,0 +1,38 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(152, 150, 150);
+}
+
+.container {
+  text-align: center;
+}
+
+.hex-color {
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+
+.hex {
+  font-size: 2rem;
+}
+
+.hex-btn {
+  color: #f15025;
+  border: 2px solid #f15025;
+  border-radius: 7px;
+  background: rgba(0, 0, 0);
+  font-size: 1.2rem;
+  padding: 10px 20px;
+  cursor: pointer;
+  outline: none;
+  text-transform: capitalize;
+}
+.hex-btn:hover {
+  background: rgb(205, 203, 203);
+  color: #000;
+  border: 2px solid #000;
+  transition: .5s;
+}
